@@ -1,0 +1,68 @@
+body{
+    background: #26521E !important;
+}
+/*HEADER*/
+.players-menu-header{
+    display: inline-flex;
+    height: 100px;
+    box-shadow: -1px 12px 6px -4px rgba(0,0,0,0.75);
+}
+/*CARDS*/
+div.card {
+    margin-top: 10px;
+    width: 150px;
+    box-shadow: 12px 7px 11px -4px rgba(0,0,0,0.75);
+    transition: all 0.4s;
+    cursor: pointer;
+    user-select: none;
+
+}
+.card:hover {
+    filter: brightness(80%);
+    opacity: 1.9;
+    box-shadow: none;
+}
+.card .card-body {
+    padding: 5px;
+    text-align: center;
+}
+.card-body .card-title {
+    margin-bottom: 0px;
+}
+.list-group .list-group-item {
+    padding: 5px;
+    text-align: center;
+}
+/*PLAYER LIST*/
+.players-menu{
+    border-right: 2px solid darkgoldenrod;
+}
+.players-menu-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*PLAYER INFO*/
+div.playerInfo-menu{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.form-group{
+    margin-top: 100px;
+}
+.form-control{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.wrong-input{
+    background: rgb(255, 51, 51) !important;
+}
+.invisible{
+    visibility: hidden;
+}

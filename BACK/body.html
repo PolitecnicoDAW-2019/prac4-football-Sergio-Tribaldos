@@ -1,0 +1,33 @@
+<div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="players-menu-header" class="col-12 players-menu-header">
+                <button type="button" class="btn btn-primary btn-lg form-control" id="add-newPlayer-button" >Añadir jugador</button>
+
+
+            </div>
+            <div id="players-menu" class="col-lg-6 col-sm-12 col-md-12 col-xs-12 players-menu">
+
+                <div id="players-menu-list" class="col-12 players-menu-list">
+
+                </div>
+            </div>
+            <div id="playerInfo-menu" class="col-lg-6 col-sm-12 col-md-12 col-xs-12 playerInfo-menu">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="alias-input" placeholder="Alias..."><span class="oi oi-check"></span>
+                    <input type="text" class="form-control" id="name-input" placeholder="Nombre...">
+                    <input type="text" class="form-control" id="birth-input" placeholder="Fecha de nacimiento...">
+                    <select class="custom-select mr-sm-2 form-control" id="positions-input"></select>
+                    <div  id="image-div" class="custom-file form-control image-input">
+                        <input type="file" accept="image/png" class="custom-file-input " id="image-input"
+                               aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="image-input">Choose file</label>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg form-control" id="update-button" disabled>Actualizar</button>
+                    <button type="button" class="btn btn-primary btn-lg form-control" id="remove-button" disabled>Borrar</button>
+                    <button type="button" class="btn btn-primary btn-lg form-control invisible" id="add-button" >Añadir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
